@@ -1,0 +1,198 @@
+body{
+	background-color: #d0d9de; /* */
+}
+
+#wrapper {
+    display: flex;/*Gjør at utseendet endres med skjermoppløsningen*/
+    flex-direction: row; /*Gjør at knappene ligger på en rad*/
+    flex-wrap: wrap;/*Teksten legger seg en rad under om den tar for stor plass*/
+    border-style: solid;/*Gjør at kantlinjen er hel*/
+    border-color: black;/*Gjør kantlinjen svart*/
+    width: 100%;/*Spenner over hele siden*/
+    margin: auto;/*Gjør at avstanden til kantene endre ved behov*/
+}
+
+header {
+    border-style: solid;
+    flex-basis: 100%;/*Spenner over hele siden*/
+    margin-bottom: -8px;/*Avstanden til det under minker*/
+}
+
+#banner {
+    width: 100%;
+}
+
+nav {
+    border-style: solid;
+    flex-basis: 100%;
+    background-color: #7777d8;/*Angir fargen til knappene*/
+}
+
+nav ul {
+    list-style: none;/*Ingen listedekorasjon*/
+    margin: 0;/*Ingen avstand til det rundt*/
+    padding: 0;/*Ikke behov for avstand til kantene*/
+    width: 100%;
+}
+
+nav li {
+    float: left;/*Teksten trekker mot venstre*/
+    width: 33.33%;/*Hver rute tar opp 20% av plassen*/
+}
+
+nav li a {
+    display: block;
+    color: black;
+    font-size: 24px;/*Skriftstørrelse*/
+    padding: 10px;/*Minimum avstand til kantene*/
+    text-align: left;/*Teksten trekker mot venstre*/
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #4f5473;/*Fargen endres om man holder musa over*/
+}
+
+nav li a:active {
+    background-color: #151722;/*Fargen endres om man holder musa over*/
+}
+
+#border{
+    display: flex, block;/*Legger ikke flere elementer ved siden av hverandre*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    margin: auto;
+	min-height: 1080px;/*Høyden på main er minst 1080 piksler*/
+}
+
+main h1{
+	font-style: italic;/*kursiv på teksten*/
+	text-decoration: underline;/*understre på teksten*/
+	max-width: 70%;/*teksten spenner maks 70% av siden*/
+	flex-wrap: nowrap;/*ikke wrap*/
+    font-family:arial, verdana, sans-serif;
+}
+
+main p{
+	max-width: 70%;
+	font-family:arial, verdana, sans-serif;
+}
+
+main li{
+    font-family:arial, verdana, sans-serif;
+}
+
+main h2{
+    font-family:arial, verdana, sans-serif;
+}
+
+#info{
+	margin-left: 15px;
+	font-size: 15px;
+}
+
+.bilde{
+	margin-left: 15px;
+	max-width: 30%;
+	box-shadow: 15px 25px 10px 15px gray;/*definerer skygge*/
+}
+
+.knapp{
+	margin-left: 15px;
+	width: 160px;
+	flex-direction: column;/*Lager kolonne for knappene*/
+	display: block;
+}
+
+table,td,th{/*Endrer utseendet på tabellen*/
+	padding: 10px;
+    border: 3px solid black;
+}
+
+table th{
+	background-color: cadetblue;
+}
+
+@media all and (max-width: 768px)	{/*Gjør at utseendet kan endres dersom oppløsningen blir mindre.*/
+	
+	main p{/*Gjør skriftstørrelsen mindre så det ser mer oversiktlig ut*/
+		font-size: 12pt;
+		margin-left: 5px;
+	}
+
+	main h1{
+		font-size: 12pt;
+		margin-left: 5px;
+	}
+	
+	main h2{
+		font-size: 12pt;
+		margin-left: 5px;
+	}
+    
+    main li{
+        font-size: 12pt;
+		margin-left: 5px;
+    }
+	
+	nav li a {
+    	font-size: 12px;
+	}
+}
+
+@media all{
+	
+	main p{
+		font-size: 15pt;
+		margin-left: 10px;
+	}
+
+	main h1{
+		font-size: 15pt;
+		margin-left: 10px;
+	}
+	
+	main h2{
+		font-size: 15pt;
+		margin-left: 5px;
+	}
+    
+    main li{
+        font-size: 15pt;
+		margin-left: 10px;
+    }
+
+	nav li a {
+    	font-size: 16px;
+	}
+}
+
+@media all and (min-width: 1024px)	{
+	
+	main p{
+		font-size: 18pt;
+		margin-left: 15px;
+	}
+
+	main h1{
+		font-size: 21pt;
+		margin-left: 15px;
+	}
+	
+	main h2{
+		font-size: 18pt;
+		margin-left: 15px;
+	}
+    
+    main li{
+        font-size: 18pt;
+		margin-left: 15px;
+    }
+	
+	nav li a {
+    	font-size: 24px;
+	}
+}
