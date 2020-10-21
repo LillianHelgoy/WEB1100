@@ -117,7 +117,7 @@ table th{
 }
 
 @media all and (max-width: 768px)	{/*Gjør at utseendet kan endres dersom oppløsningen blir mindre.*/
-	
+
 	main p{/*Gjør skriftstørrelsen mindre så det ser mer oversiktlig ut*/
 		font-size: 12pt;
 		margin-left: 5px;
@@ -127,24 +127,24 @@ table th{
 		font-size: 12pt;
 		margin-left: 5px;
 	}
-	
+
 	main h2{
 		font-size: 12pt;
 		margin-left: 5px;
 	}
-    
+
     main li{
         font-size: 12pt;
 		margin-left: 5px;
     }
-	
+
 	nav li a {
     	font-size: 12px;
 	}
 }
 
 @media all{
-	
+
 	main p{
 		font-size: 15pt;
 		margin-left: 10px;
@@ -154,12 +154,12 @@ table th{
 		font-size: 15pt;
 		margin-left: 10px;
 	}
-	
+
 	main h2{
 		font-size: 15pt;
 		margin-left: 5px;
 	}
-    
+
     main li{
         font-size: 15pt;
 		margin-left: 10px;
@@ -171,7 +171,7 @@ table th{
 }
 
 @media all and (min-width: 1024px)	{
-	
+
 	main p{
 		font-size: 18pt;
 		margin-left: 15px;
@@ -181,18 +181,25 @@ table th{
 		font-size: 21pt;
 		margin-left: 15px;
 	}
-	
+
 	main h2{
 		font-size: 18pt;
 		margin-left: 15px;
 	}
-    
+
     main li{
         font-size: 18pt;
 		margin-left: 15px;
     }
-	
+
 	nav li a {
     	font-size: 24px;
 	}
+}
+h3
+{
+	float: left;
+	margin-left: 5%;
+	width: 80%;
+
 }
