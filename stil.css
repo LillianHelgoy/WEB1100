@@ -29,7 +29,7 @@ nav {
 }
 
 nav ul {
-    list-style: none;/*Ingen listedekorasjon*/
+    list-style-type: none;/*Ingen listedekorasjon*/
     margin: 0;/*Ingen avstand til det rundt*/
     padding: 0;/*Ikke behov for avstand til kantene*/
     width: 100%;
@@ -43,6 +43,7 @@ nav li {
 nav li a {
     display: block;
     color: black;
+		width: 80%;
     font-size: 24px;/*Skriftstørrelse*/
     padding: 10px;/*Minimum avstand til kantene*/
     text-align: left;/*Teksten trekker mot venstre*/
@@ -87,6 +88,8 @@ main li{
 
 main h2{
     font-family:arial, verdana, sans-serif;
+		float: left;
+		width: 80%;
 }
 
 #info{
@@ -115,6 +118,35 @@ table,td,th{/*Endrer utseendet på tabellen*/
 table th{
 	background-color: cadetblue;
 }
+
+p
+{
+	width: 80%;
+	float: left;
+}
+
+#designthinkingprocess
+{
+	margin-left: 5%;
+margin-top: 2%;
+
+}
+
+h3
+{
+	float: left;
+	margin-left: 5%;
+	width: 80%;
+
+}
+
+/*/////*       MOBILE FIRST                 ///////////*/
+
+
+
+
+
+
 
 @media all and (max-width: 768px)	{/*Gjør at utseendet kan endres dersom oppløsningen blir mindre.*/
 
@@ -190,16 +222,10 @@ table th{
     main li{
         font-size: 18pt;
 		margin-left: 15px;
+		float: left;
     }
 
 	nav li a {
     	font-size: 24px;
 	}
-}
-h3
-{
-	float: left;
-	margin-left: 5%;
-	width: 80%;
-
 }
