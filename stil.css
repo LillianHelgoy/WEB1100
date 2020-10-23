@@ -1,3 +1,7 @@
+
+/*/////*       MOBIL                 ///////////*/
+
+
 body{
 	background-color: #d0d9de; /* */
 }
@@ -83,6 +87,8 @@ main p{
 }
 
 main li{
+	width: 80%;
+	float: left;
     font-family:arial, verdana, sans-serif;
 }
 
@@ -129,7 +135,11 @@ p
 {
 	margin-left: 5%;
 margin-top: 2%;
-
+}
+#pov
+{
+	margin-left: 5%;
+margin-top: 2%;
 }
 
 h3
@@ -140,7 +150,7 @@ h3
 
 }
 
-/*/////*       MOBILE FIRST                 ///////////*/
+/*/////*       TABLET                 ///////////*/
 
 
 
