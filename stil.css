@@ -1,7 +1,4 @@
 
-/*/////*       MOBIL                 ///////////*/
-
-
 body{
 	background-color: #d0d9de; /* */
 }
@@ -150,14 +147,7 @@ h3
 
 }
 
-/*/////*       TABLET                 ///////////*/
-
-
-
-
-
-
-
+/* mobil */
 @media all and (max-width: 768px)	{/*Gjør at utseendet kan endres dersom oppløsningen blir mindre.*/
 
 	main p{/*Gjør skriftstørrelsen mindre så det ser mer oversiktlig ut*/
@@ -185,6 +175,7 @@ h3
 	}
 }
 
+/* tablet */
 @media all{
 
 	main p{
@@ -212,6 +203,7 @@ h3
 	}
 }
 
+/* datamaskin */
 @media all and (min-width: 1024px)	{
 
 	main p{
