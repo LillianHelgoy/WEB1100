@@ -213,13 +213,13 @@ h3
 	main p{
 		font-size: 18pt;
 		margin-left: 15px;
-		max-width: 1024px;/*teksten spenner maks 70% av siden*/
+		max-width: 70%;/*teksten spenner maks 70% av siden*/
 	}
 
 	main h1{
 		font-size: 21pt;
 		margin-left: 15px;
-		max-width: 1024px;/*teksten spenner maks 70% av siden*/
+		max-width: 70%;/*teksten spenner maks 70% av siden*/
 	}
 
 	main h2{
