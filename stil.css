@@ -147,25 +147,22 @@ h3
 
 }
 
-/* For Mobil */
+/* mobil */
 @media all and (max-width: 768px)	{/*Gjør at utseendet kan endres dersom oppløsningen blir mindre.*/
 
 	main p{/*Gjør skriftstørrelsen mindre så det ser mer oversiktlig ut*/
 		font-size: 12pt;
 		margin-left: 5px;
-		max-width: 100%;/*teksten spenner maks 100% av siden*/
 	}
 
 	main h1{
 		font-size: 12pt;
 		margin-left: 5px;
-		max-width: 100%;/*teksten spenner maks 100% av siden*/
 	}
 
 	main h2{
 		font-size: 12pt;
 		margin-left: 5px;
-		max-width: 100%;/*teksten spenner maks 100% av siden*/
 	}
 
     main li{
@@ -178,25 +175,22 @@ h3
 	}
 }
 
-/* For Tablet */
+/* tablet */
 @media all{
 
 	main p{
 		font-size: 15pt;
 		margin-left: 10px;
-		max-width: 100%;/*teksten spenner maks 100% av siden*/
 	}
 
 	main h1{
 		font-size: 15pt;
 		margin-left: 10px;
-		max-width: 100%;/*teksten spenner maks 100% av siden*/
 	}
 
 	main h2{
 		font-size: 15pt;
 		margin-left: 5px;
-		max-width: 100%;/*teksten spenner maks 100% av siden*/
 	}
 
     main li{
@@ -209,25 +203,22 @@ h3
 	}
 }
 
-/* For Datamaskin */
+/* datamaskin */
 @media all and (min-width: 1024px)	{
 
 	main p{
 		font-size: 18pt;
 		margin-left: 15px;
-		max-width: 70%;/*teksten spenner maks 70% av siden*/
 	}
 
 	main h1{
 		font-size: 21pt;
 		margin-left: 15px;
-		max-width: 70%;/*teksten spenner maks 70% av siden*/
 	}
 
 	main h2{
 		font-size: 18pt;
 		margin-left: 15px;
-		max-width: 70%;/*teksten spenner maks 100% av siden*/
 	}
 
     main li{
