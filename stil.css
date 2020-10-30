@@ -162,6 +162,12 @@ h3
 
 }
 
+video
+{
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
 /* mobil */
 @media all and (max-width: 768px)	{/*Gjør at utseendet kan endres dersom oppløsningen blir mindre.*/
 
